@@ -24,7 +24,7 @@ class Gamestart extends Foode{
         fill(150, 255, 0);
         text(showGameOver, 150, 120, 40);
         text("Press R to Redeem Yourself", 150, 160, 10);
-        text("Score: " + temp, 150, 235, 10);
+        text("Score: " + temp, 150, 205, 10);
         
              if(temp <= 80){
       

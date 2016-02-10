@@ -26,7 +26,25 @@ class Gamestart extends Foode{
         text("Press R to Redeem Yourself", 150, 160, 10);
         text("Score: " + temp, 150, 235, 10);
         
+             if(temp <= 80){
+      
+      text("You really suck at this game...", 150, 270, 5);
+      
     }
+    
+     if(temp > 80 && temp < 180){
+      
+      text("Meh you are alright..", 150, 270, 5);
+      
+    }
+    
+    if(temp > 180){
+      
+      text("You are fairly decent at this!!", 150, 270, 5);
+      
+    }
+        
+  }
  
    
  }//End startGame

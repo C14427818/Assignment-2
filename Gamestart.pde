@@ -10,7 +10,7 @@ class Gamestart extends Foode{
      
     if(gameOver == false){
      
-      foodd.drawfood();
+      foodd.drawFood();
       snaked.drawSnake();
       move.snakeMove();
       foode.FoodEat();

@@ -23,7 +23,8 @@ class Foodd{
            }
            
            else{
-             check = false;
+           
+            gameOn = false;
            }
         }
        

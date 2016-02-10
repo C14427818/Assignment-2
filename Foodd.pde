@@ -8,7 +8,8 @@ class Foodd{
     void drawFood(){
       
       fill(foodColor);
-      while(check){
+      
+      while(gameOn){
        
         int x = (int)random(2,windowSize/10);
         int y = (int)random(2,windowSize/10);

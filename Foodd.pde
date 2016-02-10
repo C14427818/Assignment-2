@@ -5,7 +5,7 @@ class Foodd{
   color foodColor = color(60,0, 0);
   
   
-    void drawfood(){
+    void drawFood(){
       
       fill(foodColor);
       while(check){

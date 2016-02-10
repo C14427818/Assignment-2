@@ -52,7 +52,7 @@ void setup(){
     cx = width/2;
     cy = height/2;
      
-    snakeX = cx-5;
+    snakeX = cx-5;//Start off snake in the middle of the screen
     snakeY = cy-5;
     foodX = -1;
     foodY = -1;

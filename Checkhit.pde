@@ -7,5 +7,6 @@ class Checkhit{
             gameOver = true;
         }
      } 
+     
   }//End HitSelf
 }//End Checkhit

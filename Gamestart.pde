@@ -28,7 +28,7 @@ class Gamestart extends Foode{
         
              if(temp <= 80){
       
-      text("You really suck at this game...", 150, 270, 5);
+      text("You really suck at this game...", 150, 250, 5);
       
     }
     

@@ -7,7 +7,7 @@ class Foode{
     void FoodEat(){
       
       if(foodX == snakeX && foodY == snakeY){
-           check = true;
+           gameOn = true;
            snakeSize++;
            Points += 10;
            temp = Points;

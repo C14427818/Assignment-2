@@ -22,7 +22,7 @@ int foodX = -1;
 int foodY = -1;
 int temp = 0;
   
-boolean check = true;//To keep game running until dead
+boolean gameOn = true;//To keep game running until dead
 
 int []snakesX;
 int []snakesY;
@@ -57,7 +57,7 @@ void setup(){
     foodX = -1;
     foodY = -1;
     gameOver = false;
-    check = true;
+    gameOn = true;
     snakeSize =1;
 }//End Setup
   

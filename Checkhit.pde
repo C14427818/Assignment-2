@@ -9,4 +9,5 @@ class Checkhit{
      } 
      
   }//End HitSelf
+  
 }//End Checkhit

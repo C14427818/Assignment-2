@@ -18,7 +18,7 @@ class Foodd{
          
         for(int i = 0; i < snakeSize; i++){
            if(x == snakesX[i] && y == snakesY[i]){
-             check = true;
+             gameOn = true;
              i = snakeSize;
            }
            

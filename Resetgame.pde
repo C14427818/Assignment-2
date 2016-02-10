@@ -5,7 +5,7 @@ class Resetgame{
         snakeX = cx-5;
         snakeY = cy-5;
         gameOver = false;
-        check = true;
+        gameOn = true;
         snakeSize = 1;
         moveY = 0;
         moveX = 0;

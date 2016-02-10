@@ -82,7 +82,9 @@ void draw(){
   if(which == 1){
   
     if(speed%10 == 0){
+    
     gamestart.startGame();
+    
   }
  
      speed += 1;
@@ -91,7 +93,9 @@ void draw(){
   if(which == 2){
     
      if(speed%10 == 0){
+     
        gamestart.startGame();
+       
      }
      
      speed += 2;
@@ -100,7 +104,9 @@ void draw(){
     if(which == 3){
     
      if(speed%10 == 0){
+     
        gamestart.startGame();
+       
      }
      
      speed += 10;

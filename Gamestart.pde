@@ -40,7 +40,7 @@ class Gamestart extends Foode{
     
     if(temp > 180){
       
-      text("You are fairly decent at this!!", 150, 270, 5);
+      text("You are fairly decent at this!!", 150, 250, 5);
       
     }
         

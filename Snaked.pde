@@ -10,7 +10,7 @@ class Snaked{
       for(int i = 0; i < snakeSize; i++) {
         int X = snakesX[i];
         int Y = snakesY[i];
-        rect(X-5,Y-5,10,10);
+        rect(X-5 ,Y-5, 10, 10);
       }
        
       for(int i = snakeSize; i > 0; i--){
